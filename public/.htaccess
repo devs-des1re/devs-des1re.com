@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteBase /
+
+# Direct send.php to /include/send.php
+RewriteRule ^send-email\.php$ include/send-email.php [L]
+
+# Checks if the request is not for an existing directory
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Check if a file with the .php extension exists
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# If the webpage doesn't exist redirects to Error 404
+ErrorDocument 404 /404.php
