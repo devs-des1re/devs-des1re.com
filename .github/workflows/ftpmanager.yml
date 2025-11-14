@@ -12,5 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.6
       with:
         server: ftp.devs-des1re.com
-        username: ftpmanager
+        username: ftpmanager@devs-des1re.com
         password: ${{ secrets.FTP_PASSWORD }}
