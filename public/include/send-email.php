@@ -34,13 +34,13 @@ try {
     session_start();
     $_SESSION["redirected"] = true;
 
-    header("Location: success");
+    header("Location: /success");
     exit;
 } catch (Exception $error) {
     session_start();
     $_SESSION["redirected"] = true;
 
     error_log("Error while sending mail: " . $mail->ErrorInfo);
-    header("Location: error");
+    header("Location: /error");
     exit;
 }
