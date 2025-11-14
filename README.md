@@ -1,0 +1,6 @@
+[![FTP Deploy](https://img.shields.io/badge/Deployed_With-FTP_Deploy_Action-green?logo=github)](https://github.com/SamKirkland/FTP-Deploy-Action)
+[![devs-des1re.com](https://img.shields.io/badge/Website-devs--des1re.com-blue?logo=github)](https://devs-des1re.com/)
+# devs-des1re.com
+Hello guys! I wanted to create a website for me because I honestly just wanted to have some fun games and useful utilities for people to use. I’ve always enjoyed making little projects in my free time, so I thought it would be cool to put everything together in one place where anyone can try them out whenever they want. The whole idea behind the website is just to have a simple spot filled with things that are fun to mess around with or might actually help someone out. I’m not trying to make anything super professional or perfect, just something that people can visit and enjoy without expecting too much.
+
+I’m still learning and experimenting as I go, so things might look a bit rough or basic at times, but I’m always improving and adding new features whenever I can think of something interesting. Don’t expect the website to be perfect, but giving a star would be appreciated because it motivates me to keep updating it, fixing things, and creating even more little games and utilities for everyone to use.
