@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>devs-des1re - Homepage</title>
+    <title>devs-des1re - MC Server</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
     <!-- STYLING -->
@@ -63,60 +63,20 @@
     </nav>
 
     <!-- CARDS -->
-    <main class="flex-grow px-10 py-10">
-        <!-- INFORMATION CARD -->
-        <h1 class="text-2xl font-bold text-center mb-6">Information</h1>
-        <div class="flex flex-wrap justify-center gap-10">
-            <!-- PORTFOLIO CARD -->
-            <div class="w-full sm:w-80 px-4 py-3 bg-[#FFFFFF] rounded-md shadow-md">
-                <h1 class="mt-2 text-lg font-semibold text-[#1C1C1C] text-center">Portfolio</h1>
-                <p class="mt-2 text-sm text-[#4D4D4D]">
-                    View my portfolio to see projects, designs, and coding skills across
-                    different technologies. Each creation reflects creativity, precision,
-                    and real problem-solving. Explore my work—you might even want to hire
-                    me!
-                </p>
-                <a href="/portfolio" class="flex justify-center items-center mt-2 text-[#0099FF] transition-colors duration-300 hover:text-[#0033FF]">Visit</a>
-            </div>
+    <main class="flex-grow px-10 py-10 text-center max-w-[1100px] mx-auto">
+        <h2 class="text-2xl font-bold">Do you want to join my Minecraft server?</h2>
+        <h3>Hello there! It seems you would like to join my Minecraft server. Well you are at the right place. This guide will show you how to join for both Java and Bedrock!</h3>
 
-            <!-- CONTACT CARD -->
-            <div class="w-full sm:w-80 px-4 py-3 bg-[#FFFFFF] rounded-md shadow-md">
-                <h1 class="mt-2 text-lg font-semibold text-[#1C1C1C] text-center">Contact</h1>
-                <p class="mt-2 text-sm text-[#4D4D4D]">
-                    Contact me for collaborations, questions, or technical help. 
-                    I’m open to working on creative projects, solving coding challenges, 
-                    and building useful tools. Let’s connect and create something meaningful together.
-                </p>
-                <a href="/contact" class="flex justify-center items-center mt-2 text-[#0099FF] transition-colors duration-300 hover:text-[#0033FF]">Visit</a>
-            </div>
+        <h2 class="text-2xl font-bold mt-10">How to join on Java?</h2>
+        <h3>To join on Java first click <code class="bg-[#1C1C1C] text-[#FFFFFF] py-1 px-2 rounded-lg">Multiplayer</code>. From there locate the <code class="bg-[#1C1C1C] text-[#FFFFFF] py-1 px-2 rounded-lg">Add Server</code> button and click that.</h3>
+        <h3 class="mt-1">The <code class="bg-[#1C1C1C] text-[#FFFFFF] py-1 px-2 rounded-lg">Server Name</code> can be whatever you want and the <code class="bg-[#1C1C1C] text-[#FFFFFF] py-1 px-2 rounded-lg">Server Address</code> is <code class="bg-[#1C1C1C] text-[#FFFFFF] py-1 px-2 rounded-lg">play.devs-des1re.com</code></h3>
+        <img class="mt-3 w-full max-w-[600px] mx-auto" src="images/java.png" alt="its not loading :(">
 
-            <!-- REPOSITORY CARD -->
-            <div class="w-full sm:w-80 px-4 py-3 bg-[#FFFFFF] rounded-md shadow-md">
-                <h1 class="mt-2 text-lg font-semibold text-[#1C1C1C] text-center">Repository</h1>
-                <p class="mt-2 text-sm text-[#4D4D4D]">
-                    Explore this repository to view the source code, structure, 
-                    and components that power this website. It’s open for learning, 
-                    contributions, and improvements—feel free to explore, fork, 
-                    and help enhance the project.
-                </p>
-                <a href="https://github.com/devs-des1re/devs-des1re.com" target="_blank" class="flex justify-center items-center mt-2 text-[#0099FF] transition-colors duration-300 hover:text-[#0033FF]">Visit</a>
-            </div>
-        </div>
-
-        <!-- GAMES CARD -->
-        <h1 class="text-2xl font-bold text-center mb-6 mt-10">Games</h1>
-        <div class="flex flex-wrap justify-center gap-10">
-            <!-- MCSERVER CARD -->
-            <div class="w-full sm:w-80 px-4 py-3 bg-[#FFFFFF] rounded-md shadow-md">
-                <h1 class="mt-2 text-lg font-semibold text-[#1C1C1C] text-center">Minecraft Server</h1>
-                <p class="mt-2 text-sm text-[#4D4D4D]">
-                    Join our Minecraft server to enjoy fun, adventure, and community
-                    with players from everywhere. It’s completely free, and anyone can
-                    jump in, explore, and start playing right away!
-                </p>
-                <a href="/mcserver" class="flex justify-center items-center mt-2 text-[#0099FF] transition-colors duration-300 hover:text-[#0033FF]">Visit</a>
-            </div>
-        </div>
+        <h2 class="text-2xl font-bold mt-10">How to join on Bedrock?</h2>
+        <h3>To join on Bedrock first click <code class="bg-[#1C1C1C] text-[#FFFFFF] py-1 px-2 rounded-lg">Play</code>. From there click the <code class="bg-[#1C1C1C] text-[#FFFFFF] py-1 px-2 rounded-lg">Server</code> tab and then click <code class="bg-[#1C1C1C] text-[#FFFFFF] py-1 px-2 rounded-lg">Add Server</code>.</h3>
+        <h3 class="mt-1">The <code class="bg-[#1C1C1C] text-[#FFFFFF] py-1 px-2 rounded-lg">Server Name</code> can be whatever you want and the <code class="bg-[#1C1C1C] text-[#FFFFFF] py-1 px-2 rounded-lg">Server Address</code> is <code class="bg-[#1C1C1C] text-[#FFFFFF] py-1 px-2 rounded-lg">play.devs-des1re.com</code></h3>
+        <h3 class="mt-1">The <code class="bg-[#1C1C1C] text-[#FFFFFF] py-1 px-2 rounded-lg">Server Port</code> is <code class="bg-[#1C1C1C] text-[#FFFFFF] py-1 px-2 rounded-lg">25871</code></h3>
+        <img class="mt-3 w-full max-w-[800px] mx-auto" src="images/bedrock.png" alt="its not loading :(">
     </main>
 
     <!-- FOOTER -->
