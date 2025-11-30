@@ -1,0 +1,11 @@
+You have received a new message from a user, and it is important to read the contents carefully. Review the full details provided in the message, consider the user’s intent, and respond in a clear and appropriate manner to ensure their needs are addressed accurately and efficiently.
+
+<br><br>
+<strong>From:</strong> {{from}}
+<br>
+<strong>Email:</strong> {{email}}
+<br>
+<strong>Message:</strong> {{message}}
+<br><br>
+
+Please respond to this as quickly as possible!

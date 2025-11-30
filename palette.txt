@@ -1,0 +1,40 @@
+## **Full Color Palette**
+
+### **1. Base**
+
+* **Background:** `#F5F5F5`
+* **Primary Text:** `#000000`
+* **Secondary Text:** `#333333`
+* **Muted Text:** `#666666`
+
+---
+
+### **2. Surfaces**
+
+* **Surface Primary (cards, panels, modals):** `#FFFFFF`
+* **Surface Secondary (nested panels):** `#FAFAFA`
+* **Surface Hover:** `#F0F0F0`
+
+---
+
+### **3. Accent System**
+
+* **Primary Accent:** `#0099FF`
+* **Accent Hover / Active:** `#007ACC`
+* **Success:** `#28A745`
+* **Warning:** `#FFC107`
+* **Error:** `#FF6B6B`
+
+---
+
+### **4. Borders**
+
+* **Light Border:** `#E0E0E0`
+* **Dark Border:** `#CCCCCC`
+
+---
+
+### **5. Shadows**
+
+* **Shadow Light:** `rgba(0, 0, 0, 0.05)`
+* **Shadow Medium:** `rgba(0, 0, 0, 0.1)`
