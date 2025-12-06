@@ -8,8 +8,8 @@ $stripe_key = $env["STRIPE_KEY"];
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $session = \Stripe\Checkout\Session::create([
         "mode" => "payment",
-        "success_url" => "http://localhost:8000/success.php?session_id={CHECKOUT_SESSION_ID}",
-        "cancel_url" => "http://localhost:8000/index.php",
+        "success_url" => "http://devs-des1re.com/success.php?session_id={CHECKOUT_SESSION_ID}",
+        "cancel_url" => "http://devs-des1re.com/index.php",
         "locale" => "auto",
         "customer_email" => $_POST["email"],
         "metadata" => [
@@ -70,7 +70,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
                     <div>
                         <label class="[#333333]" for="password">Amount:</label>
-                        <input required name="amount" type="number" step="0.01" max="1000" min="1" class="block mx-auto px-4 py-2 mt-2 [#333333] bg-white border border-gray-200 rounded-md focus:border-[#0099FF] focus:ring-[#0099FF] focus:ring-opacity-40 focus:outline-none focus:ring">
+                        <input required name="amount" type="number" step="0.01" max="1000" min="0.5" class="block mx-auto px-4 py-2 mt-2 [#333333] bg-white border border-gray-200 rounded-md focus:border-[#0099FF] focus:ring-[#0099FF] focus:ring-opacity-40 focus:outline-none focus:ring">
                     </div>
                 </div>
 
