@@ -1,4 +1,3 @@
----
 deployment:
   tasks:
-    - /bin/cp -a public/. /home/devsdesr/public_html/
+    - rsync -av --delete public/ /home/devsdesr/public_html/
