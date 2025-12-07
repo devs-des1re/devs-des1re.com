@@ -29,7 +29,7 @@
                     and real problem-solving. Explore my work—you might even want to hire
                     me!
                 </p>
-                <a href="/portfolio.php" class="flex justify-center items-center mt-2 text-[#0099FF] transition-colors duration-300 hover:text-[#0033FF]">Visit</a>
+                <a href="/portfolio" class="flex justify-center items-center mt-2 text-[#0099FF] transition-colors duration-300 hover:text-[#0033FF]">Visit</a>
             </div>
 
             <div class="w-full sm:w-80 px-4 py-3 bg-[#FFFFFF] rounded-md shadow-md">
@@ -39,7 +39,7 @@
                     I’m open to working on creative projects, solving coding challenges,
                     and building useful tools. Let’s connect and create something meaningful together.
                 </p>
-                <a href="/contact.php" class="flex justify-center items-center mt-2 text-[#0099FF] transition-colors duration-300 hover:text-[#0033FF]">Visit</a>
+                <a href="/contact" class="flex justify-center items-center mt-2 text-[#0099FF] transition-colors duration-300 hover:text-[#0033FF]">Visit</a>
             </div>
 
             <div class="w-full sm:w-80 px-4 py-3 bg-[#FFFFFF] rounded-md shadow-md">
@@ -50,7 +50,7 @@
                     keeping it free and open for everyone.
                     Every contribution counts!
                 </p>
-                <a href="/donate.php" class="flex justify-center items-center mt-2 text-[#0099FF] transition-colors duration-300 hover:text-[#0033FF]">Visit</a>
+                <a href="/donate" class="flex justify-center items-center mt-2 text-[#0099FF] transition-colors duration-300 hover:text-[#0033FF]">Visit</a>
             </div>
         </div>
     </main>

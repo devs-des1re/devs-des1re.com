@@ -30,7 +30,7 @@
                         <span>Skills</span>
                     </a>
                     
-                    <a href="/contact.php" class="inline-flex items-center gap-2 px-3 py-1 border-2 border-[#0099FF] rounded-md text-[#0099FF] transition-colors duration-300 transform hover:text-blue-500 hover:border-blue-500 transition-colors duration-100">
+                    <a href="/contact" class="inline-flex items-center gap-2 px-3 py-1 border-2 border-[#0099FF] rounded-md text-[#0099FF] transition-colors duration-300 transform hover:text-blue-500 hover:border-blue-500 transition-colors duration-100">
                         <span>Contact</span>
                     </a>
                 </div>

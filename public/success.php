@@ -6,7 +6,7 @@ $env = parse_ini_file(__DIR__ . "/../.env");
 
 if (!isset($_GET['session_id'])) {
     http_response_code(404);
-    header("Location: 404.php");
+    header("Location: 404");
     exit;
 }
 
@@ -17,13 +17,13 @@ try {
 
     if ($session->payment_status !== "paid") {
         http_response_code(404);
-        header("Location: 404.php");
+        header("Location: 404");
         exit;
     }
 
 } catch (\Stripe\Exception\ApiErrorException $e) {
     http_response_code(404);
-    header("Location: 404.php");
+    header("Location: 404");
     exit;
 }
 ?>

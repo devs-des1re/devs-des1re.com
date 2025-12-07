@@ -6,7 +6,7 @@ use PHPMailer\PHPMailer\SMTP;
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     http_response_code(404);
-    header("Location: 404.php");
+    header("Location: 404");
     exit;
 }
 
