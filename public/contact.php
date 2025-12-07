@@ -107,7 +107,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
                 $noreply_email->send();
                 
-                header("Location: /contact.php?success=1");
+                header("Location: /contact?success=1");
                 exit;
             } catch (Exception $e) {
                 echo $e;
