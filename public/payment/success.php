@@ -1,7 +1,7 @@
 <?php
 require __DIR__ . "/../vendor/autoload.php";
 
-$env = parse_ini_file(__DIR__ . "../../.env");
+$env = parse_ini_file(__DIR__ . "../../../.env");
 \Stripe\Stripe::setApiKey($env["STRIPE_KEY"]);
 
 if (!isset($_GET['session_id'])) {
