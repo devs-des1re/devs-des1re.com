@@ -56,9 +56,9 @@
             <div class="w-full sm:w-80 px-4 py-3 bg-[#FFFFFF] rounded-md shadow-md">
                 <h1 class="mt-2 text-lg font-semibold text-center">APIs</h1>
                 <p class="mt-2 text-sm text-[#3C3C3C]">
-                    If you want free open source APIs, with
-                    no cost and just want a reliable service,
-                    I provide it for free. Here I host multiple APIs!
+                    If you’re looking for free, open-source APIs with zero cost 
+                    and dependable performance, I provide them at no charge. 
+                    This platform hosts multiple APIs designed to be simple to use.
                 </p>
                 <a href="https://api.devs-des1re.com/" class="flex justify-center items-center mt-2 text-[#0099FF] transition-colors duration-300 hover:text-[#0033FF]">Visit</a>
             </div>
