@@ -1,7 +1,7 @@
 <?php
 require __DIR__ . "/../vendor/autoload.php";
 
-$env = parse_ini_file(__DIR__ . "../.env");
+$env = parse_ini_file(__DIR__ . "/../.env");
 $stripe_key = $env["STRIPE_KEY"];
 \Stripe\Stripe::setApiKey($stripe_key);
 

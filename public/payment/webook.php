@@ -1,16 +1,16 @@
 <?php
-require __DIR__ . "/../vendor/autoload.php";
+require __DIR__ . "/../../vendor/autoload.php";
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     http_response_code(404);
-    header("Location: 404");
+    header("Location: /404");
     exit;
 }
 
-$env = parse_ini_file(__DIR__ . "../../.env");
+$env = parse_ini_file(__DIR__ . "/../../.env");
 \Stripe\Stripe::setApiKey($env["STRIPE_KEY"]);
 
 $payload = @file_get_contents('php://input');

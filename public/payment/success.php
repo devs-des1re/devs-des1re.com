@@ -1,12 +1,12 @@
 <?php
-require __DIR__ . "/../vendor/autoload.php";
+require __DIR__ . "/../../vendor/autoload.php";
 
-$env = parse_ini_file(__DIR__ . "../../../.env");
+$env = parse_ini_file(__DIR__ . "/../../.env");
 \Stripe\Stripe::setApiKey($env["STRIPE_KEY"]);
 
 if (!isset($_GET['session_id'])) {
     http_response_code(404);
-    header("Location: 404");
+    header("Location: /404");
     exit;
 }
 
@@ -17,13 +17,13 @@ try {
 
     if ($session->payment_status !== "paid") {
         http_response_code(404);
-        header("Location: 404");
+        header("Location: /404");
         exit;
     }
 
 } catch (\Stripe\Exception\ApiErrorException $e) {
     http_response_code(404);
-    header("Location: 404");
+    header("Location: /404");
     exit;
 }
 ?>
@@ -44,10 +44,10 @@ http_response_code(404);
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
-    <script><?php include("elements/js/copyright.js"); ?></script>
+    <script><?php include("../elements/js/copyright.js"); ?></script>
 </head>
 <body class=" flex flex-col min-h-screen bg-[#F5F5F5] font-['Cascadia_Mono']">
-    <?php include("elements/html/navbar.html"); ?>
+    <?php include("../elements/html/navbar.html"); ?>
 
     <main class="flex-grow flex items-center justify-center px-10 py-10">
         <section class="w-full">
@@ -77,6 +77,6 @@ http_response_code(404);
         </section>
     </main>
 
-    <?php include("elements/html/footer.html"); ?>
+    <?php include("../elements/html/footer.html"); ?>
 </body>
 </html>
