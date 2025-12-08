@@ -58,7 +58,9 @@
                 <p class="mt-2 text-sm text-[#3C3C3C]">
                     If you’re looking for free, open-source APIs with zero cost 
                     and dependable performance, I provide them at no charge. 
-                    This platform hosts multiple APIs designed to be simple to use.
+                    This platform hosts multiple APIs designed to be simple to use, 
+                    fully accessible, and constantly improving to meet the needs of 
+                    developers who want reliable tools without limitations.
                 </p>
                 <a href="https://api.devs-des1re.com/" class="flex justify-center items-center mt-2 text-[#0099FF] transition-colors duration-300 hover:text-[#0033FF]">Visit</a>
             </div>
