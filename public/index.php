@@ -63,6 +63,30 @@
                 <a href="https://api.devs-des1re.com/" class="flex justify-center items-center mt-2 text-[#0099FF] transition-colors duration-300 hover:text-[#0033FF]">Visit</a>
             </div>
         </div>
+
+        <h1 class="text-2xl font-bold text-center mb-6 mt-6">Projects</h1>
+
+        <div class="flex flex-wrap justify-center gap-10 text-center">
+            <div class="w-full sm:w-80 px-4 py-3 bg-[#FFFFFF] rounded-md shadow-md">
+                <h1 class="mt-2 text-lg font-semibold text-center">dyv</h1>
+                <p class="mt-2 text-sm text-[#3C3C3C]">
+                    dyv is a simple and efficient desktop application for downloading videos 
+                    from YouTube. With its clean and intuitive interface, you can easily download 
+                    your favorite YouTube content for offline viewing.
+                </p>
+                <a href="https://github.com/devs-des1re/dyv" target="_blank" class="flex justify-center items-center mt-2 text-[#0099FF] transition-colors duration-300 hover:text-[#0033FF]">Visit</a>
+            </div>
+
+            <div class="w-full sm:w-80 px-4 py-3 bg-[#FFFFFF] rounded-md shadow-md">
+                <h1 class="mt-2 text-lg font-semibold text-center">qof</h1>
+                <p class="mt-2 text-sm text-[#3C3C3C]">
+                    Tired of messy folders? My app organizes your files efficiently by extensions 
+                    into renameable folders—just adjust settings to suit you. Whether sorting 
+                    documents, images, videos, or Python files, everything finds its place.
+                </p>
+                <a href="https://github.com/devs-des1re/qof" target="_blank" class="flex justify-center items-center mt-2 text-[#0099FF] transition-colors duration-300 hover:text-[#0033FF]">Visit</a>
+            </div>
+        </div>
     </main>
 
     <?php include("elements/html/footer.html"); ?>
